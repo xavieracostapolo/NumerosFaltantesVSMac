@@ -32,6 +32,8 @@ namespace BuscaNumeros
             for (int ia = 0; ia < arr.Length; ia++){
                 if(arr[ia] != brr[ib]){
                     if(!result.Contains(brr[ib])){
+                        //Se muestra el resultado
+                        Console.WriteLine(brr[ib]);
                         result.Add(brr[ib]);
                     }
 
