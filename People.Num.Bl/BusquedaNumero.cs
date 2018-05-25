@@ -28,16 +28,7 @@ namespace People.Num.Bl
             int[] result = new int[201];
             int pivot = arr[0];
 
-<<<<<<< HEAD:BuscaNumeros/BusquedaNumero.cs
-            //Recorrer la primera lista
-            for (int ia = 0; ia < arr.Length; ia++){
-                if(arr[ia] != brr[ib]){
-                    if(!result.Contains(brr[ib])){
-                        //Se muestra el resultado
-                        Console.WriteLine(brr[ib]);
-                        result.Add(brr[ib]);
-                    }
-=======
+
             try
             {
                 for (int i = 0; i < arr.Length; i++)
@@ -51,7 +42,6 @@ namespace People.Num.Bl
                     int db = brr[i] - pivot;
                     result[100 + db]++;
                 }
->>>>>>> 2f45005... * BuscaNumeros.sln: Manejo de capas, manejo de excepciones y ajuste   del metodo de busqueda de numeros:People.Num.Bl/BusquedaNumero.cs
 
                 for (int i = 0; i < result.Length; i++)
                 {
