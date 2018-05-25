@@ -1,7 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuscaNumeros", "BuscaNumeros\BuscaNumeros.csproj", "{91EFF991-4640-4059-AB35-77306478F622}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "People.Num.Console", "BuscaNumeros\People.Num.Console.csproj", "{91EFF991-4640-4059-AB35-77306478F622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "People.Num.Bl", "People.Num.Bl\People.Num.Bl.csproj", "{D2785A36-42E7-4523-8C0E-2C457A26434C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "People.Num.Test", "People.Num.Test\People.Num.Test.csproj", "{7B589E60-5AA1-4B06-B3E8-95A9C5F7C726}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +17,13 @@ Global
 		{91EFF991-4640-4059-AB35-77306478F622}.Debug|x86.Build.0 = Debug|x86
 		{91EFF991-4640-4059-AB35-77306478F622}.Release|x86.ActiveCfg = Release|x86
 		{91EFF991-4640-4059-AB35-77306478F622}.Release|x86.Build.0 = Release|x86
+		{D2785A36-42E7-4523-8C0E-2C457A26434C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D2785A36-42E7-4523-8C0E-2C457A26434C}.Debug|x86.Build.0 = Debug|Any CPU
+		{D2785A36-42E7-4523-8C0E-2C457A26434C}.Release|x86.ActiveCfg = Release|Any CPU
+		{D2785A36-42E7-4523-8C0E-2C457A26434C}.Release|x86.Build.0 = Release|Any CPU
+		{7B589E60-5AA1-4B06-B3E8-95A9C5F7C726}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7B589E60-5AA1-4B06-B3E8-95A9C5F7C726}.Debug|x86.Build.0 = Debug|Any CPU
+		{7B589E60-5AA1-4B06-B3E8-95A9C5F7C726}.Release|x86.ActiveCfg = Release|Any CPU
+		{7B589E60-5AA1-4B06-B3E8-95A9C5F7C726}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
